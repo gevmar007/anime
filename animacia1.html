@@ -1,0 +1,138 @@
+<html>
+    <head>
+   <style>
+    
+    #sprite{
+        width: 100%;
+        height: 900px;
+        background:url(forest.jpg);
+        background-size: cover;
+      
+       
+         
+       
+    
+    }
+   
+    #sprite1{
+        position: absolute;
+        width: 284px;
+        height: 176px;
+        background:url(logan.gif) 0 0 ;
+        top: 100px; 
+        left: 200px;
+        animation: sprite1 10s;
+    }
+   @keyframes sprite1{
+        0%{transform: scale(0);}
+        25%{transform: scale(0.4);}
+        50%{ transform: scale(0.6);}
+        75%{transform: scale(0.8);}
+        100%{ transform: scale(1);}
+    
+    }
+    
+    #sprite2{
+        position: absolute;
+        width: 284px;
+        height: 176px;
+        background:url(logan.gif) -284px 0 ; 
+        top: 100px;
+        left: 484px;
+        animation: sprite2 5s;
+   
+   }
+   @keyframes sprite2{
+        0%{transform: scale(0);}
+        25%{transform: scale(0.4);}
+        50%{ transform: scale(0.6);}
+        75%{transform: scale(0.8);}
+        100%{ transform: scale(1);}
+    
+    }
+   #sprite3{
+        position: absolute;
+        width: 284px;
+        height: 176px;
+        background:url(logan.gif) -568px 0;
+        float: left;
+        top: 100px;
+        left: 768px;
+        animation: sprite3 7s;
+    }
+    @keyframes sprite3{
+        0%{transform: scale(0);}
+        25%{transform: scale(0.4);}
+        50%{ transform: scale(0.6);}
+        75%{transform: scale(0.8);}
+        100%{ transform: scale(1);}
+    
+    }
+   #sprite4{
+    position: absolute;
+        width: 284px;
+        height: 176px;
+        background:url(logan.gif)0 -528px;
+        left:200px;
+        top:276px ;
+        animation: sprite4 12s;
+    }
+    @keyframes sprite4{
+        0%{transform: scale(0);}
+        25%{transform: scale(0.4);}
+        50%{ transform: scale(0.6);}
+        75%{transform: scale(0.8);}
+        100%{ transform: scale(1);}
+    }
+
+    #sprite5{
+        position: absolute;
+        width: 284px;
+        height: 176px;
+        background:url(logan.gif) 568px -175px;
+        left: 484px;
+        top: 275px;
+        animation: sprite5 5s;
+    }
+    @keyframes sprite5{
+        0%{transform: scale(0);}
+        25%{transform: scale(0.4);}
+        50%{ transform: scale(0.6);}
+        75%{transform: scale(0.8);}
+        100%{ transform: scale(1);}
+    }
+    #sprite6{
+        width: 284px;
+        height: 176px;
+        background:url(logan.gif) 285px -175px;
+        position: absolute;
+        top: 275px;
+        left: 768px;
+        animation: sprite6 3s;
+    }
+    @keyframes sprite6{
+        0%{transform: scale(0);}
+        25%{transform: scale(0.4);}
+        50%{ transform: scale(0.6);}
+        75%{transform: scale(0.8);}
+        100%{ transform: scale(1);}
+    }
+   
+ </style>
+ </head>
+  
+      
+   
+    <body>
+        <div id="sprite">
+            
+        <div id="sprite1"></div>
+        <div id="sprite2"></div>
+        <div id="sprite3"></div>
+        <div id="sprite4"></div>
+        <div id="sprite5"></div>
+        <div id="sprite6"></div>
+        
+        </div>
+    </body>
+</html>
